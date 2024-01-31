@@ -1,0 +1,26 @@
+h1 {
+background-color: black;
+color: white;
+font-family: 'Courier New', Courier, monospace;
+font-style: italic;
+
+}
+span {
+color: aqua;
+font-style: italic;
+    
+}
+h2{
+background-color: rgb(236, 47, 236);
+color: white;
+text-align: center;
+font-style: italic;
+
+}
+h3{
+    background-color: aqua;
+    color: black;
+    text-align: end;
+    font-style: italic;
+    text-decoration: underline;
+}
