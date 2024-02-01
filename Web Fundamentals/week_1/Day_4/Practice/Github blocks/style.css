@@ -1,0 +1,52 @@
+img {
+    height: 200px;
+}
+.container {
+   height: 800px;
+   width: 680px;
+   background-color:rgb(218, 226, 230) ;
+   margin: 100px;
+   
+   
+}
+h1 {
+color: gray;
+text-align: center;
+
+
+}
+.group1 {
+    height: 200px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px; 
+    margin: 10px;
+}
+.group2 {
+    height: 200px;
+    background-color:gray ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px;
+}
+.group3 {
+
+    height: 200px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+}
+.info {
+    text-align: center;
+
+}
+a {
+    color: aqua;
+}
