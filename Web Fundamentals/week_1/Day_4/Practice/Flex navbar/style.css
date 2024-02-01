@@ -1,0 +1,35 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.nav {
+background-color: gray;
+height: 70px;
+color: white;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0px 20px;
+}
+.nav-links {
+display: flex;
+align-items: center;
+list-style-type: none;
+gap: 20px;
+
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.active {
+    font-weight: bold;
+}
+.btn {
+    color: white;
+    background-color: rgb(160, 160, 240);
+    border: 2px solid black;
+    width: 90px;
+    height: 30px;
+    box-shadow: 1px 2px 3px 1px black
+}
