@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.container{
+    height: 1000px;
+    width: 1000px;
+
+}
+/* Header */
+.Header{
+    height: 100px;
+    background-color: rgb(195, 191, 191);
+    margin-left: 90px;
+    margin-right: 90px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.Navbar{
+display: flex;
+align-items: center;
+justify-content: space-around;
+gap: 200px;
+margin-left: 30px;
+}
+.Navbar button{
+    background-color: blueviolet;
+    color: black;
+    box-shadow: 2px 3px 3px 2px black;
+    width: 60px;
+}
+.Navbar input{
+    border: solid black 1px;
+    height: 20px;
+}
+/* Area */
+.Area {
+    display: flex;
+    
+}
+.left{
+    flex: 2;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+.right{
+    flex: 1;
+    height: 150px;
+    border: 2px solid black;
+    margin-top: 50px;
+    margin-right: 90px;
+    text-align: center;
+    font-size: x-large;
+}
+.up{
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    height: 200px;
+    margin: 0 10px 10px 0;
+}
+.upleft {
+    padding: 0 20px;
+}
+.upright{
+    padding: 0 20px;
+    
+   
+}
+.down{
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    height: 200px;
+    margin: 0 10px 10px 0;
+}
+.downright{
+    padding: 0 20px ;
+}
+.downleft{
+    padding: 0 20px ;
+}
+span{
+    font-weight: bolder;
+}
+.right button{
+    background-color:rgb(5, 166, 5) ;
+    width: 150px;
+    height: 30px;
+    font-weight: bolder;
+    box-shadow: 2px 3px 3px 2px;
+}
+.left button{
+    background-color: greenyellow;
+    width: 80px;
+    height: 30px;
+    box-shadow: 2px 3px 3px 2px;
+
+}
+
