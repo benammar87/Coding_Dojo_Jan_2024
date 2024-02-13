@@ -1,0 +1,87 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+
+body {
+
+    width: 1000px;
+    /* padding: 25%; */
+    margin: 0 auto;
+}
+.navbar {
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 50px ;
+    padding: 20px 20px;
+}
+.header {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: cursive;
+}
+.main {
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left {
+    flex: 1; 
+    border: 2px solid black;
+    padding-left: 20px;
+    width: 15%;
+    height: 200px;
+    margin: 0 0 300px 80px;
+    text-align: center;
+}
+
+.left img {
+    height: 80px;
+    /* width: 50px; */
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    border-radius: 50%;
+}
+.right {
+    flex: 3;
+    margin-left: 50px;
+    text-align: center;
+}
+.up {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+
+}
+.box {
+border: 2px solid black;
+margin-bottom: 14px;
+height: 150px;
+padding-left: 30px;
+width: 80%;
+}
+.likes {
+display: flex;
+align-items: center;
+gap: 30px;
+padding-right: 10px;
+
+}
+.down {
+margin-top: 50px;
+
+}
+.down p {
+    font-size: 1.2rem;
+}
+.likes button {
+    border: 2px solid black;
+ box-shadow: 2px 4px 4px 2px black;
+ height: 20px;
+ /* width: 50px; */
+ background-color: yellowgreen;
+}
