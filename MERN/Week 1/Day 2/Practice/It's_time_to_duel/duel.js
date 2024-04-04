@@ -58,5 +58,8 @@ const effect3 = new Effect("Pair programming" ,"increase target's power by 2" ,3
 
 unit1.attack(unit2);
 effect1.attack(unit1);
+effect2.attack(unit1);
+effect3.attack(unit1);
+
 
 
