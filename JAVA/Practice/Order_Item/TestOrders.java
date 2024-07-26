@@ -22,7 +22,7 @@ public class TestOrders {
         Orders order2 = new Orders();
         Orders order3 = new Orders();
         Orders order4 = new Orders();
-        order1.name = "Cindhury";
+        order1.name = "Firas";
         order2.name = "Noah";
         order3.name ="Jimmy";
         order4.name="Sam";
