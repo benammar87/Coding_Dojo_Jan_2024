@@ -51,6 +51,13 @@ def show_one_recipe(id):
 
     return render_template("one_recipe.html", recipe = recipe , current_user= current_user.first_name)
 
+@app.route ( "/recipes/edit/<int:id>")
+def update(id):
+
+    selected_recipe = Recipe.get_one_with_user
+    return render_template("edit_recipe.html",recipe = selected_recipe)
+
+
 @app.route("/logout")
 def logout():
     session.clear()

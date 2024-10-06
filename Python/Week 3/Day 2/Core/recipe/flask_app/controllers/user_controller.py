@@ -30,7 +30,7 @@ def process_register():
     # store the user id inside the session
     user_id = User.create(data)
     session["user_id"] = user_id
-    return redirect("/dashboard")
+    return redirect("/recipes/new")
 
 
 #! ACTION ROUTE
@@ -56,7 +56,7 @@ def process_login():
 
     # get the user by his email
     session["user_id"] = user_in_db.id
-    return redirect("/dashboard")
+    return redirect("/recipes/new")
 
 
 # * View Route

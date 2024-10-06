@@ -46,6 +46,16 @@ class Recipe:
                 """
         result=connectToMySQL(DATABASE).query_db(query , data)
         return cls(result[0])
+    
+    @classmethod
+    def update_recipe(cls,data):
+
+        query = """
+                UPDATE recipes Set name = %(name)s , description = %(description)s , instructions = 
+                %(instructions)s , made = %(made)s , under = %(under)s WHERE id = %(id)s;
+                """
+        
+        return connectToMySQL(DATABASE).query_db(query , data)
 
     @staticmethod
     def validate_recipe(data):

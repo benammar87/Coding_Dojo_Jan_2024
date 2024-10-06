@@ -10,6 +10,6 @@ def iterateDictionary(key_name,some_list):
         if key_name in dictionary:
            print(dictionary[key_name])
     
-print(iterateDictionary('first_name', students))
+iterateDictionary('first_name', students)
 print("=" *50)
-print(iterateDictionary('last_name', students))
+iterateDictionary('last_name', students)
