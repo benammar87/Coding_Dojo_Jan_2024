@@ -1,0 +1,23 @@
+* Project Name: DevsonDeck
+
+* Description: Devs on Deck is a platform designed to connect developers with project opportunities. The goal is to create a space where developers can showcase their skills and find collaborative projects, while project owners can easily discover and recruit the right talent.
+
+* Stack:JAVA
+
+* Frontend: JSP/Servlets
+* Backend:
+ Java 17
+ Spring Boot 
+* DB:MySQL 
+
+* Features: 
+-User registration and profile creation for developers and project owners.
+-Organisation posting and management: project owners can post new positions .
+-Developer matching: an algorithm to match developers with projects based on skills ( languages , frameworks and librairies ).
+
+* Bonus Features:
+-Real-time notifications for project updates and messages.
+-Integration with GitHub to showcase developers’ repositories directly on their profiles.
+-Advanced search and filtering options for projects and developers.
+
+*Github Repository Link: https://github.com/benammar87/Coding_Dojo_Jan_2024
